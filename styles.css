@@ -1,0 +1,15 @@
+html{
+    background: #614385;
+    background: -webkit-radial-gradient(#614385 , #516395); 
+    background: radial-gradient(#614385 , #516395); 
+    font-family: 'Roboto', sans-serif;
+    min-height:100%;    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{background:#fff; max-width:500px; padding:20px;}
+
+h1{font-size:32px; text-align:center; text-transform:uppercase; color:#614385;font-weight:normal;}
+p{color:#614385; text-align:center;}

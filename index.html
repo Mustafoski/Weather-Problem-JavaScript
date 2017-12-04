@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Translator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ,initial-scale=1">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body onload="loadLanguages();">
+    
+    
+    <div class="container">
+        <h1> Translator </h1>
+        <p>Please enter a word and select languages to from language to what language to be translated the desired input.</p>
+        
+        
+        <div class="inputWrapper">
+            <select  id="from" onchange="translatePhrase();"  width=150 style="width:150px" ></select>
+            <textarea type="text" cols="40" rows="5"  onchange="translatePhrase();" id="fromPhrase"></textarea>
+        </div><!-- InputWrapper -->
+        <div class="inputWrapper">
+            <select  id="to"  onchange="translatePhrase();" width=150 style="width:150px"  ></select>    
+            <textarea type="text" cols="40" rows="5" id="toPhrase"></textarea>
+        </div><!-- InputWrapper -->
+    </div> <!-- end container -->
+    
+<script src="app.js"></script>
+</body>
+</html>
